@@ -1,25 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f3e5; /* Soft background color */
-    color: #333;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Light ocean gradient */
+    color: #4a4a4a;
 }
 
 header {
     text-align: center;
-    background-color: #f8d1d1; /* Blush pink */
+    background: rgba(255, 255, 255, 0.9); /* Light background for header */
     padding: 20px;
+    border-bottom: 2px solid #b2ebf2; /* Soft aqua */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 section {
@@ -28,19 +30,27 @@ section {
 
 h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
+    color: #00796b; /* Teal color */
 }
 
 #home img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #our-story ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
+}
+
+#our-story li {
+    font-size: 1.2em;
+    margin: 10px 0;
 }
 
 .gallery {
@@ -50,21 +60,26 @@ h2 {
 }
 
 .gallery figure {
-    margin: 10px;
+    margin: 15px;
     text-align: center;
+    border: 2px solid #e1bee7; /* Light purple */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff; /* White background for figures */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .gallery img {
     width: 100%;
-    max-width: 200px; /* Responsive image size */
+    max-width: 300px; /* Responsive image size */
     height: auto;
-    border-radius: 10px;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #e6d5ff; /* Lavender */
+    background-color: #fce4ec; /* Soft pink */
+    border-top: 2px solid #f8bbd0; /* Slightly darker pink */
 }
 
 form {
@@ -74,19 +89,20 @@ form {
 input[type="text"] {
     width: 70%;
     padding: 10px;
-    border: none;
+    border: 1px solid #00796b; /* Teal border */
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 button {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    background-color: #f8d1d1; /* Blush pink */
+    background-color: #00796b; /* Teal */
     color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #e6b2b2; /* Slightly darker blush pink */
+    background-color: #004d40; /* Darker teal */
 }
